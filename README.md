@@ -8,13 +8,13 @@ The project is implemented with Cypress(JavaScript)  and Gherkin Language(Cucumb
 Operation system : Windows 10 Install Git if you dont have in your system.
 https://git-scm.com/download/win
 2.	Open Git Bash and clone this repository in a directory.
-$ git clone :https://github.com/xplorehari/Automation
+   - **$ git clone :https://github.com/xplorehari/Automation**
 3.	Open the cloned project in a code editor.
 4.	In the Terminal window of the Code editor use NPM commands for installing cypress(Javascript) using following commands
    -	Download and setup Node.JS from the link below based on the system requirments
 https://nodejs.org/en/download/
 open Command Prompt or Terminal window and run the following NPM commands
-  -	Npm init
+  -	**Npm init**
     (enter for all the default options)
   -	Npm install Cypress
     (if you are getting SSL certificate error or any other error you can download the binary from https://www.cypress.io/. And follow the instructions on the page for the direct download: https://docs.cypress.io/guides/getting-started/installing-cypress#Direct-download)
