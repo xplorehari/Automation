@@ -1,4 +1,4 @@
-AutomateAngularProtractorWebtable
+#AutomateAngularProtractorWebtable
 This project's main purpose is to automate the user interactions on Angularprotractorwebtable and successfully finish the scenarios:Add user and validate,Delete user Novak and validate  using BDD
 The project is implemented with Cypress  and Gherkin Language.
 ##Setup and Execution instructions.
@@ -9,16 +9,16 @@ https://git-scm.com/download/win
 $ git clone :https://github.com/xplorehari/Automation
 3.	Open the cloned project in a code editor.
 4.	In the Terminal window of the Code editor use NPM commands for installing cypress(Javascript) using following commands
-a.	Download and setup Node.JS from the link below based on the system requirments
+   -	Download and setup Node.JS from the link below based on the system requirments
 https://nodejs.org/en/download/
 open Command Prompt or Terminal window and run the following NPM commands
-b.	Npm init
+  -	Npm init
 (enter for all the default options)
-c.	Npm install Cypress
+  -	Npm install Cypress
 (if you are getting SSL certificate error or any other error you can download the binary from https://www.cypress.io/. And follow the instructions on the page for the direct download: https://docs.cypress.io/guides/getting-started/installing-cypress#Direct-download)
-d.	 npm install @badeball/cypress-cucumber-preprocessor
+ -	 npm install @badeball/cypress-cucumber-preprocessor
 (installing the Cucumber preprocessor dependencies and configuring the same is          mandatory for running this project.Copy the package.Json file and cypress.config.js file from the repository and update your local copy for these files.For more instructions please refer to the github page:https://github.com/badeball/cypress-cucumber-preprocessor
-e.	Npx cypress open
+ -	Npx cypress open
 (When we open the first time cypress asks for the default setup of e2e spec file and other support file configuration click continue to proceed. Now click on E2E testing and select the browser:chrome and it asks for default scaffold set of spec files or create new spec file directly. Select the second option)
 
 5.	Now copy the spec files from the github repository under cypress\e2e\AutomateAngularProtractorwebtable.feature and cypress\e2e\AutomateAngularProtractorwebtable.js
