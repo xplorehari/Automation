@@ -34,6 +34,6 @@ Click on the feature and the execution will start on the new chrome browser wind
 
 ## Results
 
-The script runs and completes the execution of both the scenarios and the test report shows all the assertions used as well as the screenshots of the applications (before/after state when we hover)
+The script runs and completes the execution of both the scenarios and the test report shows all the assertions used as well as the screenshots of the applications (before/after state when we hover) in the new chrome browser window directly
 
 Also the videos of the entire run are stored in the Video folder:cypress/video.
