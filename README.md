@@ -1,7 +1,9 @@
 # AutomateAngularProtractorWebtable
 This project's main purpose is to automate the user interactions on Angularprotractorwebtable and successfully finish the scenarios:Add user and validate,Delete user Novak and validate  using BDD
+## Tech stack used
 The project is implemented with Cypress(JavaScript)  and Gherkin Language(Cucumber-BDD).
-## Setup and Execution instructions
+
+## Installation and Setup
 1.	Cypress version used: Cypress 10.9.0
 Operation system : Windows 10 Install Git if you dont have in your system.
 https://git-scm.com/download/win
@@ -25,6 +27,10 @@ open Command Prompt or Terminal window and run the following NPM commands
 
 (For the feature file to highlight in blue cucumber/full gherkin extension may be required to install depending on the editor from the extension/plugin section)
 
+## Execution
+
 6.	Cypress Testrunner will open in a new chrome window and show the updated AutomateAngularProtractorwebtable.feature as hyperlink click on that and the execution will start on the cypress Test runner for both Add and the Delete scenarios
+
+## Results
 
 7.	The script runs and completes the execution of both the scenarios and the test report shows both the assertions used as well as the screenshots of the applications (before/after state when we hover)
