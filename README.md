@@ -1,7 +1,7 @@
 # AutomateAngularProtractorWebtable
 This project's main purpose is to automate the user interactions on Angularprotractorwebtable and successfully finish the scenarios:Add user and validate,Delete user Novak and validate  using BDD
 The project is implemented with Cypress  and Gherkin Language.
-## Setup and Execution instructions.
+## Setup and Execution instructions
 1.	Cypress version used: Cypress 10.9.0
 Operation system : Windows 10 Install Git if you dont have in your system.
 https://git-scm.com/download/win
