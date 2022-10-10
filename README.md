@@ -15,17 +15,16 @@ https://git-scm.com/download/win
 https://nodejs.org/en/download/
 open Command Prompt or Terminal window and run the following NPM commands
   -	**Npm init**
-    (enter for all the default options)
+    (enter for all the default options and this will create a package.json file)
   -	**Npm install Cypress**
-    (if you are getting SSL certificate error or any other error you can download the binary from https://www.cypress.io/. And follow the instructions on the page for the direct download: https://docs.cypress.io/guides/getting-started/installing-cypress#Direct-download)
+    <sub>(if you are getting SSL certificate error or any other error you can download the binary from https://www.cypress.io/. And follow the instructions on the page for the direct download: https://docs.cypress.io/guides/getting-started/installing-cypress#Direct-download)<sub>
   - **Npm i -D cypress-fill-command @badeball/cypress-cucumber-preprocessor @cypress/webpack-preprocessor**
-    (installing the Cucumber preprocessor and webpack dependencies and configuring the same is mandatory for running this project sucessfully.Copy the **package.Json file** and **cypress.config.js** file from the repository and update your local copy for these files.For more instructions please refer to the github page:https://github.com/badeball/cypress-cucumber-preprocessor
+    <sub>(installing the Cucumber preprocessor and webpack dependencies and configuring the same is mandatory for running this project sucessfully.Copy the contents of **package.Json file** and **cypress.config.js** file from the repository and update your local copy for these files.For more instructions please refer to the github page:https://github.com/badeball/cypress-cucumber-preprocessor)<sub>
   -	**Npx cypress open**
-    (When we open the first time cypress asks for the default setup of e2e spec file and other support file configuration click continue to proceed. Now click on E2E testing and select the browser:chrome and it asks for default scaffold set of spec files or create new spec file directly. Select the second option)
+    <sub>(When we open the first time cypress asks for the default setup of e2e spec file and other support file configuration click continue to proceed. Now click on E2E testing and select the browser:chrome and it asks for default scaffold set of spec files or create new spec file directly. Select the second option)<sub>
 
-5.	Now copy the spec files from the github repository under cypress\e2e\AutomateAngularProtractorwebtable.feature and cypress\e2e\AutomateAngularProtractorwebtable.js
-
-(For the feature file to highlight in blue cucumber/full gherkin extension may be required to install depending on the editor from the extension/plugin section)
+5.	Now copy the spec files from the github repository under           cypress\e2e\AutomateAngularProtractorwebtable.feature and cypress\e2e\AutomateAngularProtractorwebtable.js
+   <sub>(For the feature file to highlight in blue cucumber/full gherkin extension may be required to install depending on the editor from the extension/plugin section)<sub>
 
 ## Execution
 
