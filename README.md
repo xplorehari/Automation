@@ -18,8 +18,8 @@ open Command Prompt or Terminal window and run the following NPM commands
 (enter for all the default options)
   -	Npm install Cypress
 (if you are getting SSL certificate error or any other error you can download the binary from https://www.cypress.io/. And follow the instructions on the page for the direct download: https://docs.cypress.io/guides/getting-started/installing-cypress#Direct-download)
- -	 npm install @badeball/cypress-cucumber-preprocessor
-(installing the Cucumber preprocessor dependencies and configuring the same is          mandatory for running this project.Copy the package.Json file and cypress.config.js file from the repository and update your local copy for these files.For more instructions please refer to the github page:https://github.com/badeball/cypress-cucumber-preprocessor
+ -	 npm i -D cypress-fill-command @badeball/cypress-cucumber-preprocessor @cypress/webpack-preprocessor
+(installing the Cucumber preprocessor and webpack dependencies and configuring the same is mandatory for running this project sucessfully.Copy the package.Json file and cypress.config.js file from the repository and update your local copy for these files.For more instructions please refer to the github page:https://github.com/badeball/cypress-cucumber-preprocessor
  -	Npx cypress open
 (When we open the first time cypress asks for the default setup of e2e spec file and other support file configuration click continue to proceed. Now click on E2E testing and select the browser:chrome and it asks for default scaffold set of spec files or create new spec file directly. Select the second option)
 
