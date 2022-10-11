@@ -16,7 +16,9 @@ https://nodejs.org/en/download/
 open Command Prompt or Terminal window and run the following NPM commands
   -	**Npm init**
     <sub>(enter for all the default options and this will create a package.json file)<sub>
-  - **create a folder where you want new cypress tests to be created** 
+
+  - **create a folder in desktop where you want new cypress tests to be created and go to   the folder location** 
+  
   -	**Npm install Cypress**
     <sub>(if you are getting SSL certificate error or any other error you can download the binary from https://www.cypress.io/. And follow the instructions on the page for the direct download: https://docs.cypress.io/guides/getting-started/installing-cypress#Direct-download)<sub>
 
