@@ -11,7 +11,7 @@ https://git-scm.com/download/win
    - **$ git clone :https://github.com/xplorehari/Automation**
 3.	Open the cloned project in a code editor.
 4.	In the Terminal window of the Code editor use NPM commands for installing cypress(Javascript) using following commands
-   -	Download and setup Node.JS from the link below based on the system requirments
+   -	Download and setup Node.JS by installing the exe from the link below based on the system requirments
 https://nodejs.org/en/download/
 open Command Prompt or Terminal window and run the following NPM commands
   -	**Npm init**
