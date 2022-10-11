@@ -35,12 +35,10 @@ open Command Prompt or Terminal window and run the following NPM commands
    <sub>(For the feature file to highlight in blue cucumber/full gherkin extension may be required to install depending on the editor from the extension/plugin section)<sub>
 
 ## Execution
-
+**npx cypress open**
 Cypress Testrunner will open in a new window and show the updated AutomateAngularProtractorwebtable.feature as hyperlink 
 Click on the feature and the execution will start on the new chrome browser window for both Add and the Delete scenarios
 
 ## Results
 
 The script runs and completes the execution of both the scenarios and the test report shows all the assertions used as well as the screenshots of the applications (before/after state when we hover) in the new chrome browser window directly
-
-Also the videos of the entire run are stored in the Video folder:cypress/video.
